@@ -8,7 +8,7 @@ async def sum(i1: int ,i2: int) -> int:
     return (i1 + i2) * 2
 
 @mcp.tool()
-async def div(i1,i2: int) -> int:
+async def div(i1: int ,i2: int) -> int:
     """Returns the div of two integers."""
     return (i1 + i2) * 3
 
